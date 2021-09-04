@@ -1,0 +1,57 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.image-container{
+  background-size: cover;
+  position: relative;
+  height: 700px;
+}
+
+.text{
+  background-color: white;
+  color: black;
+  font-size: 10vw; /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding: 10px;
+  width: 50%;
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 50%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */
+
+}
+
+.time-count{
+  font-size: 100px;
+  text-align: center;
+
+}
+
+.togo-text{
+  text-align: center;
+  font-size: 200px;
+}
+
+#first-image{
+  background-image: url("https://images.pexels.com/photos/1729808/pexels-photo-1729808.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+}
+
+#second-image{
+  background-image: url("https://images.pexels.com/photos/433527/pexels-photo-433527.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+}
+
+#third-image{
+  background-image: url("https://images.pexels.com/photos/1070850/pexels-photo-1070850.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+}
+
+#third-text{
+  background-color: gray;
+  color: black;
+  mix-blend-mode: darken;
+}
